@@ -2,10 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Connect Four</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pink Connect Four</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="js/model.connectfour.js"></script>
+    <script defer src="js/view.polished.js"></script>
+    <script defer src="js/controller.connectfour.js"></script>
 </head>
 <body>
-    <!--TODO: Build the Markup for your Game. Don't forget to style it in a cascading stylesheet. -->
-
+<div class="game-container">
+    <h1>💖 Connect Four 💖</h1>
+    <div id="current-player">Current Player: Player 1</div>
+    <div id="board"></div>
+    <div id="message"></div>
+    <button id="restart-btn">Restart Game</button>
+</div>
 </body>
 </html>
